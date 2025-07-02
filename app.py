@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 
 # Load model dan scaler
-model = joblib.load('best_model.pkl')
-scaler = joblib.load('scaler.pkl')
+model = joblib.load('best_model3.pkl')
+scaler = joblib.load('scaler3.pkl')
 
 # Judul
 st.title("Prediksi Tingkat Stres Mahasiswa Selama Pembelajaran Daring")
